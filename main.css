@@ -1,0 +1,96 @@
+::root{
+  --background: #f3f4f9;
+  --tiles: #888787;
+  --charcoal: #3c3c3c;
+  --text: black;
+}
+
+}
+
+body {
+  margin: 0;
+  /* background-color: var(--default); */
+  color: var(--text);
+}
+
+.main > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 60vh;
+  align-items: flex-start;
+  background-color: #888787;
+  padding: 3%;
+  border: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  flex-basis: 60%;
+  display: grid;
+  grid-template-columns: 15vw 15vw 15vw 15vw;
+  grid-template-rows: 15vw 15vw;
+  justify-items: stretch;
+  justify-content: center;
+  background-color:#bbbaba;
+
+}
+
+.sidebar {
+  position: relative;
+  height: 100%;
+  /* align-content: stretch; */
+  columns: 15vw;
+  grid-row: 15vw 15vw;
+  list-style-type: none;
+  margin: auto;
+  border: 5px solid black;
+
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  border: 5px solid black;
+
+}
+
+.stats {
+ position: relative;
+ display: inline-flex;
+ border: 5px solid black;
+
+
+
+.reviews {
+  position: relative;
+  border: 5px solid black;
+
+
+}
+
+.avgrating {
+  position: relative;
+  border: 5px solid black;
+
+}
+
+.sentan {
+  position: relative;
+}
+
+.webvisitors {
+  position: relative;
+  background-color: #3c3c3c;
+}
+
+.subweb{
+  width: 90%;
+  height: 60%;
+  background-color: #3c3c3c;
+  border: 5px solid black;
+
+}
